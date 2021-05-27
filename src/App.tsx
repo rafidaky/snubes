@@ -1,5 +1,5 @@
 import "./App.css";
-import { Images } from "./config";
+import { Images } from "./config/";
 
 function App() {
   return (
