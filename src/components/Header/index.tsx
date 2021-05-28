@@ -23,7 +23,7 @@ export const Header = () => {
       </div>
       <div className="Header-Image-Wrapper-Phone">
         <Form></Form>
-        <div className="Header-Phone-Image-Container">
+        {/* <div className="Header-Phone-Image-Container">
           <img className="Header-Image-Phone-Size" src={Images.shutterstockHeader}></img>
           <span>Welcome to Europe’s largest call center database</span>
           <div>
@@ -32,7 +32,7 @@ export const Header = () => {
               <span>Tenders</span>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
