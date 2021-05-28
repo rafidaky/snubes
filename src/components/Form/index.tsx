@@ -11,19 +11,19 @@ export const Form = () => {
       </span>
       <div className="Form-Row-Wrapper">
         <span className="Form-Input-Label">Company</span>
-        <input className="Form-Input"></input>
+        <input placeholder="Company" className="Form-Input"></input>
       </div>
       <div className="Form-Row-Wrapper">
         <span className="Form-Input-Label">Name</span>
-        <input className="Form-Input"></input>
+        <input placeholder="Full name" className="Form-Input"></input>
       </div>
       <div className="Form-Row-Wrapper">
         <span className="Form-Input-Label">Phone</span>
-        <input className="Form-Input"></input>
+        <input placeholder="+49" className="Form-Input"></input>
       </div>
       <div className="Form-Row-Wrapper">
         <span className="Form-Input-Label">E-mail</span>
-        <input className="Form-Input"></input>
+        <input placeholder="name@mail.com" className="Form-Input"></input>
       </div>
       <button className="Form-Button">Get informed</button>
     </div>

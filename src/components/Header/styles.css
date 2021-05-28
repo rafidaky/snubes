@@ -1,5 +1,6 @@
 .Header-Container {
   display: flex;
+  overflow-x: hidden;
 }
 .Header-Image {
   width: 100%;
@@ -30,7 +31,7 @@
 .Header-Phone-Image-Container {
   display: none;
 }
-@media (min-width: 300px) and (max-width: 700px) {
+@media (min-width: 1px) and (max-width: 539px) {
   .Header-Container {
     width: 100vw;
     height: 100vh;
@@ -54,13 +55,15 @@
   }
 }
 
-@media (min-width: 700px) and (max-width: 1000px) {
+@media (min-width: 540px) and (max-width: 1024px) {
   .Header-Container {
   }
   .Header-Image-Wrapper {
     display: none;
   }
   .Header-Image-Wrapper-Phone {
+    display: flex;
+    width: 100%;
   }
   .Header-Phone-Image-Container {
   }

@@ -13,7 +13,10 @@
 .Navbar-Menu-Logo {
   display: none;
 }
-@media (min-width: 300px) and (max-width: 700px) {
+.Navbar-Logo-Phone {
+  display: none;
+}
+@media (min-width: 1px) and (max-width: 539px) {
   .Navbar-Container {
     padding-left: 15px;
     padding-right: 15px;
@@ -22,8 +25,12 @@
     border-width: 0px 0px 1px 0px;
   }
   .Navbar-Logo {
+    display: none;
+  }
+  .Navbar-Logo-Phone {
     height: 4vh;
     width: 29vw;
+    display: flex;
   }
   .Navbar-Buttons {
     display: none;
@@ -35,7 +42,7 @@
   }
 }
 
-@media (min-width: 700px) and (max-width: 1024px) {
+@media (min-width: 540px) and (max-width: 1024px) {
   .Navbar-Container {
     padding-left: 15px;
     padding-right: 15px;
@@ -44,8 +51,12 @@
     border-width: 0px 0px 1px 0px;
   }
   .Navbar-Logo {
+    display: none;
+  }
+  .Navbar-Logo-Phone {
     height: 4vh;
     width: 29vw;
+    display: flex;
   }
   .Navbar-Buttons {
     display: none;
