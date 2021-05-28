@@ -1,10 +1,12 @@
 import "./App.css";
-import { Images } from "./config/";
+import { NavBar, Header, Footer } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <img src={Images.allianz}></img>
+      <NavBar></NavBar>
+      <Header></Header>
+      <Footer></Footer>
     </div>
   );
 }

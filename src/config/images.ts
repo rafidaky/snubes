@@ -11,6 +11,7 @@ import sourceLogo from "../assets/images/sourceLogo.svg";
 import talixoBlack from "../assets/images/talixo-black.png";
 import talixoGray from "../assets/images/talixo-gray.png";
 import usercentrics from "../assets/images/usercentrics.png";
+import navBar from "../assets/images/navBar.svg";
 
 export const Images = {
   allianz: allianz,
@@ -26,4 +27,5 @@ export const Images = {
   talixoBlack: talixoBlack,
   talixoGray: talixoGray,
   usercentrics: usercentrics,
+  navBar: navBar,
 };

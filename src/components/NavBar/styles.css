@@ -1,0 +1,12 @@
+.Navbar-Container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 21%;
+  padding-right: 21%;
+  justify-content: space-between;
+  height: 7vh;
+}
+.Navbar-Logo {
+}
+.Navbar-Buttons {
+}

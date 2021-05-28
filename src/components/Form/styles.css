@@ -1,0 +1,43 @@
+.Form-Container {
+  background-color: white;
+  width: 32vw;
+  height: 90%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.Form-Title {
+  font-size: 28px;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 1.36;
+  color: #445566;
+}
+.Form-Desc {
+  font-size: 18px;
+  line-height: 1.56;
+  color: #445566;
+  font-family: Roboto;
+}
+.Form-Input-Wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+.Form-Row-Wrapper {
+  display: flex;
+  justify-content: center;
+}
+.Form-Input-Label {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #445566;
+  margin-right: 10px;
+}
+.Form-Input {
+  width: 58%;
+}
