@@ -1,5 +1,14 @@
 .Footer-Container {
   background-color: #4a4a4a;
   width: 100vw;
-  height: 20vh;
+}
+.Footer-TopContainer {
+  background-color: saddlebrown;
+  width: 100vw;
+  height: 22vh;
+}
+.Footer-BottomContainer {
+  background-color: aqua;
+  width: 100vw;
+  height: 10vh;
 }

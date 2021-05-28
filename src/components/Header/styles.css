@@ -16,9 +16,54 @@
 }
 .Header-Inner {
   position: absolute;
-  width: 100%;
   display: flex;
   height: 50%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding-left: 19%;
+  padding-right: 21%;
+  width: -webkit-fill-available;
+}
+.Header-Image-Wrapper-Phone {
+  display: none;
+}
+.Header-Phone-Image-Container {
+  display: none;
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .Header-Container {
+    width: 100vw;
+    height: 100vh;
+  }
+  .Header-Image-Wrapper {
+    display: none;
+  }
+  .Header-Image-Wrapper-Phone {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+  }
+  .Header-Phone-Image-Container {
+    background-color: saddlebrown;
+    width: 100vw;
+    height: 20vh;
+  }
+  .Header-Image-Phone-Size {
+    height: 10vh;
+    width: 10vh;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .Header-Container {
+  }
+  .Header-Image-Wrapper {
+    display: none;
+  }
+  .Header-Image-Wrapper-Phone {
+  }
+  .Header-Phone-Image-Container {
+  }
+  .Header-Image-Phone-Size {
+  }
 }

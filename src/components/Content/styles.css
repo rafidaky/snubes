@@ -1,0 +1,16 @@
+.Content-Container {
+  width: 100vw;
+}
+.Content-Background-Image {
+  width: 100vw;
+  height: 58vh;
+}
+.Content-TopContainer {
+  height: 24vh;
+  width: 100%;
+  background-color: red;
+}
+.Content-BottomContainer {
+  height: 58vh;
+  width: 100%;
+}
