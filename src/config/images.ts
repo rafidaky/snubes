@@ -12,7 +12,7 @@ import sourceLogo from "../assets/images/sourceLogo.svg";
 import talixoBlack from "../assets/images/talixo-black.png";
 import talixoGray from "../assets/images/talixo-gray.png";
 import usercentrics from "../assets/images/usercentrics.png";
-import navBar from "../assets/images/navBar.svg";
+import navButtons from "../assets/images/navButtons.png";
 import menu from "../assets/images/menu.svg";
 import shutterstockPhone from "../assets/images/shutterstockPhone.png";
 import shutterstockTablet from "../assets/images/tablet-shutterstock.png";
@@ -31,7 +31,7 @@ export const Images = {
   talixoBlack: talixoBlack,
   talixoGray: talixoGray,
   usercentrics: usercentrics,
-  navBar: navBar,
+  navButtons: navButtons,
   menu: menu,
   snubesLogo: snubesLogo,
   shutterstockPhone: shutterstockPhone,

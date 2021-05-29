@@ -1,14 +1,17 @@
 .Navbar-Container {
   display: flex;
   flex-direction: row;
-  padding-left: 21%;
-  padding-right: 21%;
   justify-content: space-between;
-  height: 7vh;
+  padding: 17px 21%;
 }
 .Navbar-Logo {
+  width: 8.5vw;
+  height: 4vh;
 }
 .Navbar-Buttons {
+  width: 36vw;
+  height: 10%;
+  align-self: center;
 }
 .Navbar-Menu-Logo {
   display: none;
