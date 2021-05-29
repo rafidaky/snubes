@@ -7,8 +7,8 @@ function App() {
       <NavBar></NavBar>
       <Header></Header>
       <Content></Content>
-      {/*    <Customers></Customers>
-      <FAQ></FAQ>
+      <Customers></Customers>
+      {/*     <FAQ></FAQ>
       <Footer></Footer> */}
     </div>
   );

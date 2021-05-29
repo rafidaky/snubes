@@ -17,6 +17,8 @@ import navButtons from "../assets/images/navButtons.png";
 import menu from "../assets/images/menu.svg";
 import shutterstockPhone from "../assets/images/shutterstockPhone.png";
 import shutterstockTablet from "../assets/images/tablet-shutterstock.png";
+import pagination from "../assets/images/pagination.png";
+import paginationPhone from "../assets/images/pagination-phone.png";
 
 export const Images = {
   allianz: allianz,
@@ -38,4 +40,6 @@ export const Images = {
   shutterstockPhone: shutterstockPhone,
   shutterstockTablet: shutterstockTablet,
   shutterstockFooterTablet: shutterstockFooterTablet,
+  pagination: pagination,
+  paginationPhone: paginationPhone,
 };

@@ -1,5 +1,119 @@
 .Customers-Container {
   height: 51vh;
-  width: 100vw;
-  background-color: pink;
+  padding: 60px 21%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Customer-Top-Title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: -webkit-fill-available;
+}
+.Customer-Top-Logo {
+  width: 132px;
+  height: 28px;
+}
+.Customer-Middle-Container {
+  margin-top: 40px;
+}
+.Customer-Middle-Text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.56;
+  color: #445566;
+}
+.Customer-Middle-Footer-Text {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  color: #445566;
+}
+.Customer-Middle-Footer-Text-Bold {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.56;
+  font-weight: bold;
+  text-align: center;
+  color: #445566;
+}
+.Customer-Bottom-Logo-Container {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+.Customer-Bottom-Logo {
+  width: 132px;
+  height: 28px;
+  margin: 0px 66px;
+}
+.Customer-Bottom-Logo-Usercentrics {
+  width: 132px;
+  height: 28px;
+  margin: 0px 66px;
+}
+.Customer-Bottom-Pagination {
+  width: 66px;
+  height: 12px;
+  margin-top: 30px;
+}
+.Customer-Bottom-Pagination-Phone {
+  display: none;
+}
+@media (min-width: 1px) and (max-width: 539px) {
+  .Customers-Container {
+    height: auto;
+    padding: 30px 15px;
+  }
+  .Customer-Middle-Text {
+    font-size: 16px;
+  }
+  .Customer-Middle-Footer-Text {
+    font-size: 16px;
+  }
+  .Customer-Middle-Footer-Text-Bold {
+    font-size: 16px;
+  }
+  .Customer-Bottom-Pagination {
+    display: none;
+  }
+  .Customer-Bottom-Pagination-Phone {
+    display: flex;
+    width: 266px;
+    height: 18px;
+    margin-top: 30px;
+  }
+  .Customer-Bottom-Logo-Container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+  }
+  .Customer-Bottom-Logo {
+    width: 120px;
+    margin: 20px 0px 0px 0px;
+  }
+  .Customer-Bottom-Logo-Usercentrics {
+    width: 193px;
+    margin-top: 20px;
+    align-self: center;
+  }
+}
+@media (min-width: 540px) and (max-width: 1024px) {
+  .Customers-Container {
+    height: auto;
+    padding: 60px 11%;
+  }
+  .Customer-Bottom-Logo {
+    width: 100px;
+    margin: 0px 20px;
+  }
+  .Customer-Bottom-Logo-Usercentrics {
+    width: 110px;
+    margin: 0px 20px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1500px) {
 }

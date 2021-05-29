@@ -3,3 +3,9 @@
   width: 100vw;
   height: 20vh;
 }
+@media (min-width: 1px) and (max-width: 539px) {
+}
+@media (min-width: 540px) and (max-width: 1024px) {
+}
+@media (min-width: 1025px) and (max-width: 1500px) {
+}
