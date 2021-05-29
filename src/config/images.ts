@@ -4,6 +4,7 @@ import laserhub from "../assets/images/laserhub.png";
 import offersLogo from "../assets/images/offersLogo.svg";
 import rectangle from "../assets/images/rectangle.svg";
 import shutterstockFooter from "../assets/images/shutterstock-middle.png";
+import shutterstockFooterTablet from "../assets/images/shutterstock-middle-tablet.png";
 import shutterstockHeader from "../assets/images/shutterstock.png";
 import signUpLogo from "../assets/images/signUpLogo.svg";
 import snubesLogoCloud from "../assets/images/snubes-logo.svg";
@@ -36,4 +37,5 @@ export const Images = {
   snubesLogo: snubesLogo,
   shutterstockPhone: shutterstockPhone,
   shutterstockTablet: shutterstockTablet,
+  shutterstockFooterTablet: shutterstockFooterTablet,
 };

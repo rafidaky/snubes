@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <NavBar></NavBar>
       <Header></Header>
-      {/*  <Content></Content>
-      <Customers></Customers>
+      <Content></Content>
+      {/*    <Customers></Customers>
       <FAQ></FAQ>
       <Footer></Footer> */}
     </div>

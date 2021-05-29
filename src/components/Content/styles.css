@@ -1,16 +1,153 @@
 .Content-Container {
   width: 100vw;
+  display: flex;
+  flex-direction: column;
 }
 .Content-Background-Image {
   width: 100vw;
   height: 58vh;
+  display: flex;
+  align-items: flex-start;
+  width: -webkit-fill-available;
+  background-repeat: round;
+  padding: 60px 33%;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .Content-TopContainer {
-  height: 24vh;
-  width: 100%;
-  background-color: red;
+  margin: 0px 21%;
+  display: flex;
+  align-items: center;
 }
 .Content-BottomContainer {
   height: 58vh;
   width: 100%;
+}
+.Content-TopContainer-Outer-Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+  margin: 30px 0px;
+}
+.Content-TopContainer-Logo {
+  width: 4.2vw;
+  height: 4.2vw;
+}
+.Content-TopContainer-Title {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.56;
+  text-align: center;
+  color: #445566;
+}
+.Content-TopContainer-Desc {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.56;
+  text-align: center;
+  color: #445566;
+}
+.Content-BottomContainer-Title {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.57;
+  color: #445566;
+}
+.Content-BottomContainer-LittleTitle {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #445566;
+}
+.Content-BottomContainer-Desc {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.56;
+  color: #445566;
+}
+.Content-TopContainer-Phone {
+  display: none;
+}
+
+@media (min-width: 1px) and (max-width: 539px) {
+  .Content-TopContainer {
+    display: none;
+  }
+  .Content-TopContainer-Phone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Content-TopContainer-TextWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    width: 72%;
+    margin-left: 10px;
+  }
+  .Content-TopContainer-Outer-Wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 15px;
+  }
+  .Content-TopContainer-Logo {
+    width: 80px;
+    height: 80px;
+  }
+  .Content-TopContainer-Desc {
+    font-size: 14px;
+    text-align: left;
+  }
+  .Content-TopContainer-Title {
+    font-size: 14px;
+  }
+  .Content-Background-Image {
+    height: auto;
+    background-image: none !important;
+    padding: 30px 15px;
+    border: solid lightgray;
+    border-top-width: 10px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 10px;
+    background-color: #ffffff;
+  }
+  .Content-BottomContainer-LittleTitle {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 540px) and (max-width: 1024px) {
+  .Content-TopContainer {
+    margin: 0px 3%;
+  }
+  .Content-TopContainer-Outer-Wrapper {
+    margin-left: 25px;
+  }
+  .Content-TopContainer-Logo {
+    width: 80px;
+    height: 80px;
+  }
+  .Content-TopContainer-TextWrapper {
+    margin-top: 10px;
+  }
+  .Content-Background-Image {
+    padding: 30px;
+    background-image: url("../../../src/assets/images/shutterstock-middle-tablet.png") !important;
+  }
+  .Content-BottomContainer-Title {
+    width: 50vw;
+  }
+  .Content-BottomContainer-LittleTitle {
+    width: 50vw;
+  }
+  .Content-BottomContainer-Desc {
+    width: 50vw;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1500px) {
 }
