@@ -1,5 +1,5 @@
 import "./styles.css";
 
-export const FAQ = () => {
+export const FAQ: React.FunctionComponent = () => {
   return <div className="FAQ-Container"></div>;
 };

@@ -1,7 +1,7 @@
 import { Images } from "../../config";
 import "./styles.css";
 
-export const Content = () => {
+export const Content: React.FunctionComponent = () => {
   return (
     <div className="Content-Container">
       <div className="Content-TopContainer"></div>

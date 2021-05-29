@@ -38,7 +38,7 @@
   .Navbar-Menu-Logo {
     display: flex;
     height: 4vh;
-    width: 6vw;
+    width: 9vw;
   }
 }
 
@@ -54,8 +54,8 @@
     display: none;
   }
   .Navbar-Logo-Phone {
-    height: 4vh;
-    width: 29vw;
+    height: 2.5vh;
+    width: 14vw;
     display: flex;
   }
   .Navbar-Buttons {
@@ -63,7 +63,7 @@
   }
   .Navbar-Menu-Logo {
     display: flex;
-    height: 4vh;
-    width: 6vw;
+    height: 2vh;
+    width: 4vw;
   }
 }

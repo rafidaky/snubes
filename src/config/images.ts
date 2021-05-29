@@ -14,6 +14,8 @@ import talixoGray from "../assets/images/talixo-gray.png";
 import usercentrics from "../assets/images/usercentrics.png";
 import navBar from "../assets/images/navBar.svg";
 import menu from "../assets/images/menu.svg";
+import shutterstockPhone from "../assets/images/shutterstockPhone.png";
+import shutterstockTablet from "../assets/images/tablet-shutterstock.png";
 
 export const Images = {
   allianz: allianz,
@@ -32,4 +34,6 @@ export const Images = {
   navBar: navBar,
   menu: menu,
   snubesLogo: snubesLogo,
+  shutterstockPhone: shutterstockPhone,
+  shutterstockTablet: shutterstockTablet,
 };

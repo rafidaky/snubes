@@ -1,6 +1,6 @@
 import "./styles.css";
 
-export const Form = () => {
+export const Form: React.FunctionComponent = () => {
   return (
     <div className="Form-Container">
       <span className="Form-Title">

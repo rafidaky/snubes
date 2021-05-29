@@ -1,7 +1,7 @@
 import { Images } from "../../config";
 import "./styles.css";
 
-export const NavBar = () => {
+export const NavBar : React.FunctionComponent= () => {
   return (
     <div className="Navbar-Container">
       <img className="Navbar-Logo" src={Images.snubesLogoCloud}></img>
