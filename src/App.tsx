@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import { createStore } from "redux";
 import reducers from "../src/reducers/";
 
-function App() {
+const App: React.FunctionComponent = () => {
   const store = createStore(reducers);
 
   return (
@@ -18,6 +18,6 @@ function App() {
       </div>
     </Provider>
   );
-}
+};
 
 export default App;

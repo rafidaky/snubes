@@ -18,10 +18,10 @@ export const Form: React.FunctionComponent = () => {
   const [isCompanyValid, setCompanyValid] = useState<boolean>(true);
   const [submitSuccessful, setSuccess] = useState<boolean>();
 
-  const emailRef = useRef<HTMLInputElement>();
-  const nameRef = useRef<HTMLInputElement>();
-  const phoneRef = useRef<HTMLInputElement>();
-  const companyRef = useRef<HTMLInputElement>();
+  const emailRef = useRef() as React.MutableRefObject<HTMLInputElement>;
+  const nameRef = useRef() as React.MutableRefObject<HTMLInputElement>;
+  const phoneRef = useRef() as React.MutableRefObject<HTMLInputElement>;
+  const companyRef = useRef() as React.MutableRefObject<HTMLInputElement>;
 
   const validateEmail = (email: string) => {
     const re =
@@ -46,7 +46,7 @@ export const Form: React.FunctionComponent = () => {
         setSuccess(true);
       } else {
         setEmailValid(false);
-        emailRef.current.focus();
+        emailRef?.current?.focus();
         setSuccess(false);
       }
     } else {
@@ -71,13 +71,13 @@ export const Form: React.FunctionComponent = () => {
         setEmailValid(true);
       }
       if (company == "") {
-        companyRef.current.focus();
+        companyRef?.current?.focus();
       } else if (name == "") {
-        nameRef.current.focus();
+        nameRef?.current?.focus();
       } else if (phone == "") {
-        phoneRef.current.focus();
+        phoneRef?.current?.focus();
       } else {
-        emailRef.current.focus();
+        emailRef?.current?.focus();
       }
       setSuccess(false);
     }
