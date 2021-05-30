@@ -7,6 +7,36 @@
   justify-content: space-around;
   flex-direction: column;
 }
+input:focus {
+  border: solid 1px #0099ee;
+  -webkit-appearance: none;
+}
+.Form-After-Submit-Error-Hidden {
+  display: none;
+}
+.Form-After-Submit-Error {
+  font-size: 16px;
+  font-family: Roboto;
+  color: #ee5566;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.Form-Input-Error {
+  width: 78%;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  padding-left: 10px;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #445566;
+  border: solid 1px red;
+  -webkit-appearance: none;
+}
+input:focus-visible {
+  outline-color: #0099ee;
+}
 .Form-Title {
   font-size: 28px;
   font-family: Roboto;
@@ -26,7 +56,7 @@
   display: flex;
   justify-content: flex-end;
   height: 48px;
-  margin: 15px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
   width: 24vw;
   align-items: center;
 }
@@ -44,12 +74,17 @@
 }
 .Form-Input {
   width: 78%;
-  height: 48px;
+  height: 44px;
   object-fit: contain;
   border-radius: 4px;
   border: solid 1px #aabbcc;
   background-color: #ffffff;
   padding-left: 10px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.56;
+  color: #445566;
 }
 .Form-Button {
   background-color: #0099ee;
@@ -59,8 +94,8 @@
   border: none;
   width: 56%;
   border-radius: 4px;
-  height: 48px;
-  margin: 30px 0px 30px 78px;
+  height: 44px;
+  margin: 20px 0px 20px 78px;
   align-self: center;
 }
 
@@ -75,6 +110,9 @@
     font-size: 24px;
     margin-top: 15px;
   }
+  .Form-After-Submit-Error {
+    margin-bottom: 10px;
+  }
   .Form-Desc {
     display: none;
   }
@@ -86,6 +124,11 @@
     align-items: flex-start;
   }
   .Form-Input {
+    width: -webkit-fill-available;
+    height: 7vh;
+    margin-top: 5px;
+  }
+  .Form-Input-Error {
     width: -webkit-fill-available;
     height: 7vh;
     margin-top: 5px;
@@ -118,9 +161,13 @@
     justify-content: flex-end;
     margin-top: 20px;
   }
-  .Form-Input-Label {
+  .Form-After-Submit-Error {
+    margin-bottom: 10px;
   }
   .Form-Input {
+    width: 45vw;
+  }
+  .Form-Input-Error {
     width: 45vw;
   }
   .Form-Button {
@@ -155,9 +202,14 @@
     justify-content: space-between;
     margin-top: 20px;
   }
-  .Form-Input-Label {
+  .Form-After-Submit-Error {
+    margin-bottom: 10px;
   }
+
   .Form-Input {
+    width: 45vw;
+  }
+  .Form-Input-Error {
     width: 45vw;
   }
   .Form-Button {
@@ -175,30 +227,44 @@
   .Form-Container {
     height: -webkit-fill-available;
     margin: 20px 0px 25px 0px;
+    justify-content: space-around;
   }
   .Form-Title {
     font-size: 20px;
     text-align: center;
+    margin: 0px;
   }
   .Form-Desc {
     font-size: 14px;
+    margin: 0px;
   }
   .Form-Row-Wrapper {
-    height: -webkit-fill-available;
-    margin: 15px 0px 0px 0px;
-    width: 25vw;
+    height: 40px;
+    margin: 0px;
+    width: 384px;
   }
   .Form-Input-Label {
-    font-size: 18px;
+    font-size: 14px;
   }
   .Form-Input {
     width: 73%;
-    height: -webkit-fill-available;
+    height: 100%;
     padding-left: 10px;
+    font-size: 14px;
+  }
+  .Form-Input-Error {
+    width: 73%;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 14px;
   }
   .Form-Button {
     width: 50%;
-    height: -webkit-fill-available;
-    margin: 10px 0px 10px 78px;
+    height: 40px;
+    margin: 0px 0px 0px 78px;
+  }
+  .Form-After-Submit-Error {
+    font-size: 12px;
+    margin-bottom: 3px;
   }
 }
