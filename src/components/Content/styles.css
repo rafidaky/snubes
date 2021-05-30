@@ -2,6 +2,11 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
+  border: solid #f9f9f9;
+  border-top-width: 10px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 10px;
 }
 .Content-Background-Image {
   width: 100vw;
@@ -13,6 +18,11 @@
   padding: 60px 33%;
   flex-direction: column;
   justify-content: space-around;
+  border: solid #f9f9f9;
+  border-top-width: 10px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
 }
 .Content-TopContainer {
   margin: 0px 21%;
@@ -110,7 +120,7 @@
     height: auto;
     background-image: none !important;
     padding: 30px 15px;
-    border: solid lightgray;
+    border: solid #f9f9f9;
     border-top-width: 10px;
     border-left-width: 0px;
     border-right-width: 0px;

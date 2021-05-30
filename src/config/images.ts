@@ -2,7 +2,6 @@ import allianz from "../assets/images/allianz.png";
 import creditshelf from "../assets/images/creditshelf.png";
 import laserhub from "../assets/images/laserhub.png";
 import offersLogo from "../assets/images/offersLogo.svg";
-import rectangle from "../assets/images/rectangle.svg";
 import shutterstockFooter from "../assets/images/shutterstock-middle.png";
 import shutterstockFooterTablet from "../assets/images/shutterstock-middle-tablet.png";
 import shutterstockHeader from "../assets/images/shutterstock.png";
@@ -19,13 +18,14 @@ import shutterstockPhone from "../assets/images/shutterstockPhone.png";
 import shutterstockTablet from "../assets/images/tablet-shutterstock.png";
 import pagination from "../assets/images/pagination.png";
 import paginationPhone from "../assets/images/pagination-phone.png";
+import footerLogo from "../assets/images/footer-logo.png";
+import socials from "../assets/images/socials.png";
 
 export const Images = {
   allianz: allianz,
   creditshelf: creditshelf,
   laserhub: laserhub,
   offersLogo: offersLogo,
-  rectangle: rectangle,
   shutterstockFooter: shutterstockFooter,
   shutterstockHeader: shutterstockHeader,
   signUpLogo: signUpLogo,
@@ -42,4 +42,6 @@ export const Images = {
   shutterstockFooterTablet: shutterstockFooterTablet,
   pagination: pagination,
   paginationPhone: paginationPhone,
+  footerLogo: footerLogo,
+  socials: socials,
 };

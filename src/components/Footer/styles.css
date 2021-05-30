@@ -3,18 +3,70 @@
   width: 100vw;
 }
 .Footer-TopContainer {
-  background-color: saddlebrown;
-  width: 100vw;
-  height: 22vh;
+  padding: 66px 21%;
+  display: flex;
+  justify-content: space-between;
 }
 .Footer-BottomContainer {
-  background-color: aqua;
+  background-color: white;
   width: 100vw;
   height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer-TopContainer-Button-Text {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.18;
+  color: #ffffff;
+}
+.Footer-TopContainer-Logo {
+  width: 85px;
+  height: 85px;
+}
+.Footer-TopContainer-Button-Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Footer-TopContainer-Socials {
+  width: 77px;
+  height: 20px;
+}
+.Footer-BottomContainer-Text {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #4a4a4a;
+}
+.Footer-TopContainer-Phone {
+  display: none;
 }
 @media (min-width: 1px) and (max-width: 539px) {
+  .Footer-TopContainer {
+    display: none;
+  }
+  .Footer-TopContainer-Phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 0px;
+  }
+  .Footer-TopContainer-Logo {
+    display: none;
+  }
+  .Footer-TopContainer-Button-Text {
+    margin-top: 15px;
+  }
+  .Footer-TopContainer-Socials {
+    margin-top: 15px;
+  }
 }
 @media (min-width: 540px) and (max-width: 1024px) {
+  .Footer-TopContainer {
+    padding: 30px 39px;
+  }
 }
 @media (min-width: 1025px) and (max-width: 1500px) {
 }
