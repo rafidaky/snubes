@@ -14,6 +14,27 @@ input:focus {
 .Form-After-Submit-Error-Hidden {
   display: none;
 }
+.Form-Input-Label-Success {
+  font-weight: bold;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #445566;
+  margin-right: 10px;
+}
+.Form-Row-Wrapper-Success {
+  align-self: center;
+  width: 50%;
+  display: flex;
+}
+.Form-Success-Divider {
+  width: -webkit-fill-available;
+  height: 1px;
+  margin: 30px 1px 35px 0;
+  border-radius: 8px;
+  background-color: #aabbcc;
+  margin: 0px 67px;
+}
 .Form-After-Submit-Error {
   font-size: 16px;
   font-family: Roboto;
@@ -51,6 +72,14 @@ input:focus-visible {
   color: #445566;
   font-family: Roboto;
   margin-top: 15px;
+}
+.Form-Desc-Success {
+  font-size: 18px;
+  line-height: 1.56;
+  color: #445566;
+  font-family: Roboto;
+  margin-top: 15px;
+  text-align: center;
 }
 .Form-Row-Wrapper {
   display: flex;
@@ -98,8 +127,11 @@ input:focus-visible {
   margin: 20px 0px 20px 78px;
   align-self: center;
 }
+.Form-Row-Wrapper-Success-Text-Container {
+  width: 6vw;
+}
 
-@media (min-width: 1px) and (max-width: 539px) {
+@media (min-width: 1px) and (max-width: 540px) {
   .Form-Container {
     border-radius: 0px;
     margin-left: 15px;
@@ -109,6 +141,7 @@ input:focus-visible {
   .Form-Title {
     font-size: 24px;
     margin-top: 15px;
+    text-align: center;
   }
   .Form-After-Submit-Error {
     margin-bottom: 10px;
@@ -138,8 +171,19 @@ input:focus-visible {
     width: -webkit-fill-available;
     margin: 15px;
   }
+  .Form-Row-Wrapper-Success {
+    margin: 10px 20px;
+    width: 55%;
+    width: -webkit-fill-available;
+  }
+  .Form-Row-Wrapper-Success-Text-Container {
+    width: 30vw;
+  }
+  .Form-Success-Divider {
+    margin: 10px 0px;
+  }
 }
-@media (min-width: 540px) and (max-width: 1023px) {
+@media (min-width: 541px) and (max-width: 1023px) {
   .Form-Container {
     margin-left: 110px;
     margin-right: 114px;
@@ -153,6 +197,10 @@ input:focus-visible {
   }
   .Form-Desc {
     margin-top: 15px;
+  }
+  .Form-Desc-Success {
+    margin: 15px 0px;
+    padding: 0px 60px;
   }
   .Form-Row-Wrapper {
     width: -webkit-fill-available;
@@ -179,6 +227,13 @@ input:focus-visible {
     align-self: center;
     margin-left: 3vw;
   }
+  .Form-Row-Wrapper-Success {
+    margin: 15px 0px;
+    width: 55%;
+  }
+  .Form-Row-Wrapper-Success-Text-Container {
+    width: 21vw;
+  }
 }
 @media (width: 1024px) {
   .Form-Container {
@@ -195,6 +250,11 @@ input:focus-visible {
     margin-top: 15px;
     font-size: 24px;
   }
+  .Form-Desc-Success {
+    margin-top: 15px;
+    font-size: 24px;
+    width: 60vw;
+  }
   .Form-Row-Wrapper {
     width: 55vw;
     padding-right: 0px;
@@ -205,7 +265,6 @@ input:focus-visible {
   .Form-After-Submit-Error {
     margin-bottom: 10px;
   }
-
   .Form-Input {
     width: 45vw;
   }
@@ -221,6 +280,17 @@ input:focus-visible {
     width: 40vw;
     align-self: center;
     margin-left: 9vw;
+  }
+  .Form-Row-Wrapper-Success {
+    margin: 15px 0px;
+    width: 30%;
+  }
+  .Form-Row-Wrapper-Success-Text-Container {
+    width: 21vw;
+  }
+  .Form-Success-Divider {
+    margin: 10px 0px;
+    width: 60vw;
   }
 }
 @media (min-width: 1025px) and (max-width: 1500px) {
@@ -238,6 +308,12 @@ input:focus-visible {
     font-size: 14px;
     margin: 0px;
   }
+  .Form-Desc-Success {
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px 60px;
+    text-align: center;
+  }
   .Form-Row-Wrapper {
     height: 40px;
     margin: 0px;
@@ -245,6 +321,11 @@ input:focus-visible {
   }
   .Form-Input-Label {
     font-size: 14px;
+  }
+  .Form-Input-Label-Success {
+    font-size: 14px;
+  }
+  .Form-Row-Wrapper-Success {
   }
   .Form-Input {
     width: 73%;

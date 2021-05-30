@@ -5,7 +5,7 @@ import { setFormData } from "../../actions/";
 
 export const Form: React.FunctionComponent = () => {
   const prefix = useSelector((state: any) => state.prefix);
-  const state = useSelector((state: any) => state);
+  const state = useSelector((state: any) => state.formData);
 
   const dispatch = useDispatch();
   const [company, setCompany] = useState<string>("");
@@ -13,7 +13,7 @@ export const Form: React.FunctionComponent = () => {
   const [phone, setPhone] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [isEmailValid, setEmailValid] = useState<boolean>(true);
-  const [submitSuccessful, setSuccess] = useState<boolean>(true);
+  const [submitSuccessful, setSuccess] = useState<boolean>();
 
   const emailRef = useRef<HTMLInputElement>();
 
@@ -44,7 +44,43 @@ export const Form: React.FunctionComponent = () => {
     }
   };
 
-  return (
+  return submitSuccessful === true ? (
+    <div className="Form-Container">
+      <span className="Form-Title">Thank you for your request!</span>
+      <span className="Form-Desc-Success">
+        You’ve taken the first step. Our experts will get in touch with you
+        soon.
+      </span>
+      <div className="Form-Success-Divider"> </div>
+      <div className="Form-Row-Wrapper-Success">
+        <div className="Form-Row-Wrapper-Success-Text-Container">
+          <span className="Form-Input-Label">Company</span>
+        </div>
+        <span className="Form-Input-Label-Success">{state.data.company}</span>
+      </div>
+      <div className="Form-Row-Wrapper-Success">
+        <div className="Form-Row-Wrapper-Success-Text-Container">
+          <span className="Form-Input-Label">Name</span>
+        </div>
+
+        <span className="Form-Input-Label-Success">{state.data.name}</span>
+      </div>
+      <div className="Form-Row-Wrapper-Success">
+        <div className="Form-Row-Wrapper-Success-Text-Container">
+          <span className="Form-Input-Label">Phone</span>
+        </div>
+
+        <span className="Form-Input-Label-Success">{state.data.phone}</span>
+      </div>
+      <div className="Form-Row-Wrapper-Success">
+        <div className="Form-Row-Wrapper-Success-Text-Container">
+          <span className="Form-Input-Label">E-mail</span>
+        </div>
+
+        <span className="Form-Input-Label-Success">{state.data.email}</span>
+      </div>
+    </div>
+  ) : (
     <div className="Form-Container">
       <span className="Form-Title">
         Find inbound call centers for your company
@@ -114,9 +150,9 @@ export const Form: React.FunctionComponent = () => {
       </button>
       <span
         className={
-          submitSuccessful
-            ? "Form-After-Submit-Error-Hidden"
-            : "Form-After-Submit-Error"
+          submitSuccessful === false
+            ? "Form-After-Submit-Error"
+            : "Form-After-Submit-Error-Hidden"
         }
       >
         Your information was not submitted due to an error. Please retry.
